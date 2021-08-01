@@ -69,10 +69,7 @@ $(function () {
                 localStorage.setItem('token', res.token);
                 layer.msg("登录成功");
                 // 跳转后台主页
-                // location.href = '/index.html';
-            },
-            error: function (error) {
-                console.log(error);
+                location.href = '/index.html';
             }
         });
     });
