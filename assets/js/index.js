@@ -35,6 +35,7 @@ function drawUser(user) {
     var name = user.nickname || user.username;
     var firstStr = name[0].toUpperCase();
     if (user.user_pic !== null) {
+        $('.text-avatar').hide();
         $('.layui-nav-img').attr('src', user.user_pic).show();
     } else {
         $('.text-avatar').html(firstStr).show();
