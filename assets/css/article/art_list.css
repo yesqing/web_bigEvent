@@ -1,0 +1,9 @@
+.layui-form {
+    width: 100%;
+}
+
+#form-edit {
+    padding-top: 20px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
